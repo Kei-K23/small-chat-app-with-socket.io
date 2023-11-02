@@ -16,23 +16,129 @@
   <body>
     <main>
       <form id="join_room">
-        <input type="text" id="join_room-input" />
+        <input
+          class="textInput"
+          type="text"
+          id="join_room-input"
+          placeholder="Enter room name? e.g programming"
+        />
         <button class="btn" type="submit">Join</button>
       </form>
-
-      <ul id="chat_room-container">
-        <li class="message_other">Hello</li>
-        <li class="message_user">Hi</li>
-        <li class="message_other">Lorem ipsum dolor sit amet consectetur.</li>
-        <li class="message_user">Lorem ipsum dolor sit amet consectetur.</li>
-      </ul>
-
       <p id="room_p">Room name: <b>Hello World</b></p>
       <p id="room_member">Members: <b>Arkar Min, Kei</b></p>
+
+      <ul id="chat_room-container">
+        <li class="message message_other">
+          <div class="message-header">
+            <h3 class="message-header_left">Mg Mg</h3>
+            <h3 class="message-header_right">12:12:12 AM</h3>
+          </div>
+          <p class="message-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
+          </p>
+        </li>
+        <li class="message message_user">
+          <div class="message-header">
+            <h3 class="message-header_left">Mg Mg</h3>
+            <h3 class="message-header_right">12:12:12 AM</h3>
+          </div>
+          <p class="message-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
+          </p>
+        </li>
+        <li class="message message_other">
+          <div class="message-header">
+            <h3 class="message-header_left">Mg Mg</h3>
+            <h3 class="message-header_right">12:12:12 AM</h3>
+          </div>
+          <p class="message-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
+          </p>
+        </li>
+        <li class="message message_user">
+          <div class="message-header">
+            <h3 class="message-header_left">Mg Mg</h3>
+            <h3 class="message-header_right">12:12:12 AM</h3>
+          </div>
+          <p class="message-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
+          </p>
+        </li>
+        <li class="message message_other">
+          <div class="message-header">
+            <h3 class="message-header_left">Mg Mg</h3>
+            <h3 class="message-header_right">12:12:12 AM</h3>
+          </div>
+          <p class="message-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
+          </p>
+        </li>
+        <li class="message message_user">
+          <div class="message-header">
+            <h3 class="message-header_left">Mg Mg</h3>
+            <h3 class="message-header_right">12:12:12 AM</h3>
+          </div>
+          <p class="message-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
+          </p>
+        </li>
+        <li class="message message_other">
+          <div class="message-header">
+            <h3 class="message-header_left">Mg Mg</h3>
+            <h3 class="message-header_right">12:12:12 AM</h3>
+          </div>
+          <p class="message-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
+          </p>
+        </li>
+        <li class="message message_other">
+          <div class="message-header">
+            <h3 class="message-header_left">Mg Mg</h3>
+            <h3 class="message-header_right">12:12:12 AM</h3>
+          </div>
+          <p class="message-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
+          </p>
+        </li>
+        <li class="message message_other">
+          <div class="message-header">
+            <h3 class="message-header_left">Mg Mg</h3>
+            <h3 class="message-header_right">12:12:12 AM</h3>
+          </div>
+          <p class="message-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
+          </p>
+        </li>
+        <li class="message message_user">
+          <div class="message-header">
+            <h3 class="message-header_left">Mg Mg</h3>
+            <h3 class="message-header_right">12:12:12 AM</h3>
+          </div>
+          <p class="message-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
+          </p>
+        </li>
+        <li class="message message_user">
+          <div class="message-header">
+            <h3 class="message-header_left">Mg Mg</h3>
+            <h3 class="message-header_right">12:12:12 AM</h3>
+          </div>
+          <p class="message-body">Lorem, ipsum dolor sit amet consectetur</p>
+        </li>
+      </ul>
+
       <p id="activity"></p>
 
       <form id="chat_form">
-        <input type="text" id="chat_form-input" />
+        <input
+          class="textInput"
+          type="text"
+          id="chat_form-input"
+          placeholder="Message"
+        />
         <button class="btn" type="submit">
           <i class="fa-solid fa-paper-plane"></i>
         </button>
