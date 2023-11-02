@@ -23,8 +23,6 @@ main {
     height: 600px;
     padding: 1rem 2rem;
     overflow: auto;
-    display: flex;
-    flex-direction: column;
 }
 
 .message {
@@ -36,12 +34,29 @@ main {
     border-radius: 1rem;
 }
 
+.message_admin {
+    max-width: 100%;
+}
+
+.message.message_admin .message-header {
+    display: none;
+}
+
+.message.message_admin .message-body {
+    color: #000;
+    padding: 1rem;
+    font-size: 1.3rem;
+    line-height: 1.3em;
+    background-color: #ccc;
+    border-radius: 1rem;
+}
+
 .message.message_user {
-    align-self: flex-end;
+    float: right;
 }
 
 .message.message_other {
-    align-self: flex-start;
+    float: left;
 }
 
 .message.message_user .message-header {

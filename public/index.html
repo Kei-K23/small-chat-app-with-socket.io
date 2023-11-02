@@ -21,114 +21,21 @@
           type="text"
           id="join_room-input"
           placeholder="Enter room name? e.g programming"
+          required
+        />
+        <input
+          class="textInput"
+          type="text"
+          id="join_name-input"
+          placeholder="Enter your name? e.g foo"
+          required
         />
         <button class="btn" type="submit">Join</button>
       </form>
-      <p id="room_p">Room name: <b>Hello World</b></p>
-      <p id="room_member">Members: <b>Arkar Min, Kei</b></p>
+      <p id="room_p">Room name: <b></b></p>
+      <p id="room_member">Members: <b></b></p>
 
-      <ul id="chat_room-container">
-        <li class="message message_other">
-          <div class="message-header">
-            <h3 class="message-header_left">Mg Mg</h3>
-            <h3 class="message-header_right">12:12:12 AM</h3>
-          </div>
-          <p class="message-body">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
-          </p>
-        </li>
-        <li class="message message_user">
-          <div class="message-header">
-            <h3 class="message-header_left">Mg Mg</h3>
-            <h3 class="message-header_right">12:12:12 AM</h3>
-          </div>
-          <p class="message-body">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
-          </p>
-        </li>
-        <li class="message message_other">
-          <div class="message-header">
-            <h3 class="message-header_left">Mg Mg</h3>
-            <h3 class="message-header_right">12:12:12 AM</h3>
-          </div>
-          <p class="message-body">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
-          </p>
-        </li>
-        <li class="message message_user">
-          <div class="message-header">
-            <h3 class="message-header_left">Mg Mg</h3>
-            <h3 class="message-header_right">12:12:12 AM</h3>
-          </div>
-          <p class="message-body">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
-          </p>
-        </li>
-        <li class="message message_other">
-          <div class="message-header">
-            <h3 class="message-header_left">Mg Mg</h3>
-            <h3 class="message-header_right">12:12:12 AM</h3>
-          </div>
-          <p class="message-body">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
-          </p>
-        </li>
-        <li class="message message_user">
-          <div class="message-header">
-            <h3 class="message-header_left">Mg Mg</h3>
-            <h3 class="message-header_right">12:12:12 AM</h3>
-          </div>
-          <p class="message-body">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
-          </p>
-        </li>
-        <li class="message message_other">
-          <div class="message-header">
-            <h3 class="message-header_left">Mg Mg</h3>
-            <h3 class="message-header_right">12:12:12 AM</h3>
-          </div>
-          <p class="message-body">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
-          </p>
-        </li>
-        <li class="message message_other">
-          <div class="message-header">
-            <h3 class="message-header_left">Mg Mg</h3>
-            <h3 class="message-header_right">12:12:12 AM</h3>
-          </div>
-          <p class="message-body">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
-          </p>
-        </li>
-        <li class="message message_other">
-          <div class="message-header">
-            <h3 class="message-header_left">Mg Mg</h3>
-            <h3 class="message-header_right">12:12:12 AM</h3>
-          </div>
-          <p class="message-body">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
-          </p>
-        </li>
-        <li class="message message_user">
-          <div class="message-header">
-            <h3 class="message-header_left">Mg Mg</h3>
-            <h3 class="message-header_right">12:12:12 AM</h3>
-          </div>
-          <p class="message-body">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, porro?
-          </p>
-        </li>
-        <li class="message message_user">
-          <div class="message-header">
-            <h3 class="message-header_left">Mg Mg</h3>
-            <h3 class="message-header_right">12:12:12 AM</h3>
-          </div>
-          <p class="message-body">Lorem, ipsum dolor sit amet consectetur</p>
-        </li>
-      </ul>
+      <ul id="chat_room-container"></ul>
 
       <p id="activity"></p>
 
@@ -144,6 +51,11 @@
         </button>
       </form>
     </main>
+    <script
+      src="https://cdn.socket.io/4.6.0/socket.io.min.js"
+      integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+"
+      crossorigin="anonymous"
+    ></script>
     <script src="app.js"></script>
   </body>
 </html>
