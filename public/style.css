@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: #111;
+}
+
+main {
+    background-color: #343434;
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 2rem 3rem;
+}
+
+#chat_room-container {
+    background-color: #343434;
+}

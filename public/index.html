@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Chat App</title>
+  </head>
+  <body>
+    <main>
+      <form id="join_room">
+        <input type="text" id="join_room-input" />
+        <button class="btn" type="submit">Join</button>
+      </form>
+
+      <ul id="chat_room-container">
+        <li class="message_other">Hello</li>
+        <li class="message_user">Hi</li>
+        <li class="message_other">Lorem ipsum dolor sit amet consectetur.</li>
+        <li class="message_user">Lorem ipsum dolor sit amet consectetur.</li>
+      </ul>
+
+      <p id="room_p">Room name: <b>Hello World</b></p>
+      <p id="room_member">Members: <b>Arkar Min, Kei</b></p>
+      <p id="activity"></p>
+
+      <form id="chat_form">
+        <input type="text" id="chat_form-input" />
+        <button class="btn" type="submit">
+          <i class="fa-solid fa-paper-plane"></i>
+        </button>
+      </form>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
