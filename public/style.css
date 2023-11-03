@@ -10,11 +10,13 @@ body {
 }
 
 main {
-    width: 50%;
+    width: 100%;
     height: 100vh;
     margin: 0 auto;
     padding: 2rem 3rem;
 }
+
+
 
 /* chat container  */
 #chat_room-container {
@@ -115,4 +117,28 @@ main {
     color: #eee;
     font-size: 1.3rem;
     margin: 1rem 0;
+}
+
+#activity {
+    color: #eee;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+@media (min-width: 650px) {
+    main {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1120px) {
+    main {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1560px) {
+    main {
+        width: 50%;
+    }
 }
