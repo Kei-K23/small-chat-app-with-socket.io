@@ -1,4 +1,4 @@
-const socket = io("ws://localhost:8090");
+const socket = io("https://small-chat-app-by-kei.onrender.com/");
 
 const joinRoom = document.querySelector("#join_room");
 const chatForm = document.querySelector("#chat_form");
